@@ -56,7 +56,7 @@ internal class UtilsHex
         }
         catch (Exception ex)
         {
-            throw new Exception(sess.i18n(XlfKeys.TheProvidedStringDoesNotAppearToBeHexEncoded) + ":" + Environment.NewLine + hexEncoded + Environment.NewLine + SunamoExceptions.OnlyInSE.Exceptions.TextOfExceptions(ex));
+            throw new Exception(sess.i18n(XlfKeys.TheProvidedStringDoesNotAppearToBeHexEncoded) + ":" + Environment.NewLine + hexEncoded + Environment.NewLine + Exceptions.TextOfExceptions(ex));
             return null;
         }
     }
