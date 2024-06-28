@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace SunamoColors;
-public class sess
+internal class sess
 {
-    public static string i18n(string theProvidedStringDoesNotAppearToBeHexEncoded)
+    internal static string i18n(string theProvidedStringDoesNotAppearToBeHexEncoded)
     {
         return theProvidedStringDoesNotAppearToBeHexEncoded;
     }
