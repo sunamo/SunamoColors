@@ -1,3 +1,5 @@
+
+namespace SunamoColors;
 public class TranslateAble
 {
     

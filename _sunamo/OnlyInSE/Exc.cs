@@ -1,3 +1,5 @@
+
+namespace SunamoColors;
 using System.Diagnostics;
 using System.Text;
 
