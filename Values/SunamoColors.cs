@@ -1,4 +1,4 @@
-namespace SunamoColors;
+namespace SunamoColors.Values;
 
 public class SunamoColors
 {

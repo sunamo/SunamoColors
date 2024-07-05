@@ -1,5 +1,5 @@
 
-namespace SunamoColors;
+namespace SunamoColors._sunamo.SunamoValues;
 internal class AllChars
 {
     internal static List<char> vsZnakyWithoutSpecial;
