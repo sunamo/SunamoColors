@@ -14,3 +14,6 @@ global using SunamoColors._sunamo.SunamoXlfKeys;
 global using SunamoColors._sunamo.SunamoExceptions.OnlyInSE;
 global using SunamoColors._sunamo.SunamoExceptions._AddedToAllCsproj;
 global using SunamoColors._sunamo.SunamoLang.SunamoI18N;
+global using System.Diagnostics;
+global using System.Net;
+global using System.Threading.Tasks;

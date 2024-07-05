@@ -1,4 +1,3 @@
-
 namespace SunamoColors._sunamo.SunamoExceptions.OnlyInSE;
 internal class TranslateAble
 {

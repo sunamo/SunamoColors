@@ -1,4 +1,3 @@
-
 namespace SunamoColors._sunamo.SunamoValues;
 internal class AllStrings
 {
