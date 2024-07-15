@@ -1,5 +1,6 @@
 namespace SunamoColors;
-internal class UtilsHex
+
+public class UtilsHex
 {
     /// <summary>
     /// converts an array of bytes to a string Hex representation
