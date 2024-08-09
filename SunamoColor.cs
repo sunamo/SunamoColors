@@ -2,16 +2,8 @@ namespace SunamoColors;
 
 public class SunamoColor
 {
-
-
-    public byte A { get; set; }
-    public byte R { get; set; }
-    public byte G { get; set; }
-    public byte B { get; set; }
-
     public SunamoColor()
     {
-
     }
 
     public SunamoColor(byte a, byte r, byte g, byte b)
@@ -21,6 +13,12 @@ public class SunamoColor
         G = g;
         B = b;
     }
+
+
+    public byte A { get; set; }
+    public byte R { get; set; }
+    public byte G { get; set; }
+    public byte B { get; set; }
 
     public override string ToString()
     {
