@@ -1,6 +1,5 @@
-using SunamoColors._sunamo;
-
 namespace SunamoColors;
+using SunamoColors._sunamo;
 
 public class UtilsHex
 {

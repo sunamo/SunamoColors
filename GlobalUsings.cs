@@ -4,11 +4,14 @@ global using System.Collections.Generic;
 global using System.Collections;
 global using System.IO;
 global using System.Linq;
-global using System.Diagnostics.CodeAnalysis;
-global using System.Reflection;
 global using SunamoColors._sunamo.SunamoValues;
-
-global using SunamoColors._sunamo.SunamoExceptions.OnlyInSE;
+global using SunamoColors._sunamo.SunamoExceptions;
 global using SunamoColors._sunamo.SunamoLang.SunamoI18N;
 global using System.Diagnostics;
+global using System.Diagnostics.CodeAnalysis;
+global using System.Reflection;
 global using System.Net;
+global using SunamoColors;
+global using SunamoColors.Values;
+global using SunamoColors._sunamo;
+global using SunamoColors._sunamo.SunamoStringGetLines;
