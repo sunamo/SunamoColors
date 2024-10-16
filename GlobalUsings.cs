@@ -9,3 +9,4 @@ global using SunamoColors._sunamo.SunamoLang.SunamoI18N;
 global using System.Diagnostics;
 global using System.Reflection;
 global using System.Net;
+global using System.Diagnostics.CodeAnalysis;
