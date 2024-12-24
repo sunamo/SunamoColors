@@ -39,7 +39,7 @@ public class UtilsHex
         }
         catch (Exception ex)
         {
-            throw new Exception(sess.i18n(XlfKeys.TheProvidedStringDoesNotAppearToBeHexEncoded) + ":" +
+            throw new Exception(Translate.FromKey(XlfKeys.TheProvidedStringDoesNotAppearToBeHexEncoded) + ":" +
                                 Environment.NewLine + hexEncoded + Environment.NewLine +
                                 Exceptions.TextOfExceptions(ex));
             return null;
