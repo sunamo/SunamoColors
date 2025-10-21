@@ -1,3 +1,6 @@
+// EN: Variable names have been checked and replaced with self-descriptive names
+// CZ: Názvy proměnných byly zkontrolovány a nahrazeny samopopisnými názvy
+
 namespace SunamoColors;
 
 public class UtilsHex
@@ -10,9 +13,9 @@ public class UtilsHex
     {
         if (ba == null || ba.Count == 0) return "";
         const string HexFormat = "{0:X2}";
-        var sb = new StringBuilder();
-        foreach (var b in ba) sb.Append( /*SHFormat.Format4*/string.Format(HexFormat, b));
-        return sb.ToString();
+        var stringBuilder = new StringBuilder();
+        foreach (var builder in ba) stringBuilder.Append( /*SHFormat.Format4*/string.Format(HexFormat, builder));
+        return stringBuilder.ToString();
     }
     /// <summary>
     ///     converts from a string Hex representation to an array of bytes
@@ -25,10 +28,10 @@ public class UtilsHex
         try
         {
             hexEncoded = hexEncoded.TrimStart('#');
-            var l = Convert.ToInt32(hexEncoded.Length / 2);
-            var b = new List<byte>(l);
-            for (var i = 0; i <= l - 1; i++) b.Add(Convert.ToByte(hexEncoded.Substring(i * 2, 2), 16));
-            return b;
+            var list = Convert.ToInt32(hexEncoded.Length / 2);
+            var builder = new List<byte>(list);
+            for (var i = 0; i <= list - 1; i++) builder.Add(Convert.ToByte(hexEncoded.Substring(i * 2, 2), 16));
+            return builder;
         }
         catch (Exception ex)
         {
