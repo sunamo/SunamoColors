@@ -6,12 +6,12 @@ public class UtilsHex
     ///     converts an array of bytes to a string Hex representation
     ///     Prevedu pole bytu A1 na hexadecimalni retezec.
     /// </summary>
-    public static string ToHex(List<byte> ba)
+    public static string ToHex(List<byte> bytes)
     {
-        if (ba == null || ba.Count == 0) return "";
+        if (bytes == null || bytes.Count == 0) return "";
         const string HexFormat = "{0:X2}";
         var stringBuilder = new StringBuilder();
-        foreach (var builder in ba) stringBuilder.Append( /*SHFormat.Format4*/string.Format(HexFormat, builder));
+        foreach (var byteValue in bytes) stringBuilder.Append( /*SHFormat.Format4*/string.Format(HexFormat, byteValue));
         return stringBuilder.ToString();
     }
     /// <summary>
@@ -25,10 +25,10 @@ public class UtilsHex
         try
         {
             hexEncoded = hexEncoded.TrimStart('#');
-            var list = Convert.ToInt32(hexEncoded.Length / 2);
-            var builder = new List<byte>(list);
-            for (var i = 0; i <= list - 1; i++) builder.Add(Convert.ToByte(hexEncoded.Substring(i * 2, 2), 16));
-            return builder;
+            var capacity = Convert.ToInt32(hexEncoded.Length / 2);
+            var bytes = new List<byte>(capacity);
+            for (var i = 0; i <= capacity - 1; i++) bytes.Add(Convert.ToByte(hexEncoded.Substring(i * 2, 2), 16));
+            return bytes;
         }
         catch (Exception ex)
         {
