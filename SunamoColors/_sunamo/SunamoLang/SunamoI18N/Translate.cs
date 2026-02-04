@@ -1,4 +1,3 @@
-// variables names: ok
 namespace SunamoColors._sunamo.SunamoLang.SunamoI18N;
 
 /// <summary>

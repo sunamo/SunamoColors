@@ -1,4 +1,3 @@
-// variables names: ok
 namespace SunamoColors._sunamo;
 
 // variables names: ok
