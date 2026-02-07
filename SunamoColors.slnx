@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="SunamoColors.Tests\\SunamoColors.Tests.csproj" />
+  <Project Path="RunnerColors\\RunnerColors.csproj" />
+  <Project Path="SunamoColors\SunamoColors.csproj" />
+</Solution>
