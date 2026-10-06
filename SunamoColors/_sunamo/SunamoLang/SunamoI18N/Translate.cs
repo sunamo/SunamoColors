@@ -1,8 +1,5 @@
 namespace SunamoColors._sunamo.SunamoLang.SunamoI18N;
 
-/// <summary>
-/// Provides translation functionality for localization keys
-/// </summary>
 internal class Translate
 {
     /// <summary>
