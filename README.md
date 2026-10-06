@@ -1,5 +1,10 @@
 # SunamoColors
 
+## Short description
+
+Knihovna pro pokročilou práci s barvami v .NET. Je součástí sady balíčků Sunamo.
+
+
 Advanced working with colors
 
 ## Overview
