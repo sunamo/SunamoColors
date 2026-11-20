@@ -24,7 +24,7 @@ public class UtilsHex
         }
         catch (Exception ex)
         {
-            throw new Exception(Translate.FromKey(XlfKeys.TheProvidedStringDoesNotAppearToBeHexEncoded) + ":" +
+            throw new Exception("The provided string does not appear to be hex encoded" + ":" +
                                 Environment.NewLine + hexEncoded + Environment.NewLine +
                                 Exceptions.TextOfExceptions(ex));
         }
