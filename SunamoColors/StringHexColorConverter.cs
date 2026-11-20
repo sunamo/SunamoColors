@@ -1,17 +1,35 @@
 namespace SunamoColors;
 
+/// <summary>
+/// Represents the string hex color converter type.
+/// </summary>
 public static partial class StringHexColorConverter
 {
+    /// <summary>
+    /// Convert to.
+    /// </summary>
+    /// <param name="u">The u.</param>
+    /// <returns>The convert to result.</returns>
     public static string ConvertTo(System.Drawing.Color u)
     {
         return $"#{u.A:X2}{u.R:X2}{u.G:X2}{u.B:X2}";
     }
 
+    /// <summary>
+    /// Convert to wo alpha.
+    /// </summary>
+    /// <param name="u">The u.</param>
+    /// <returns>The convert to wo alpha result.</returns>
     public static string ConvertToWoAlpha(System.Drawing.Color u)
     {
         return $"#{u.R:X2}{u.G:X2}{u.B:X2}";
     }
 
+    /// <summary>
+    /// Convert from.
+    /// </summary>
+    /// <param name="t">The t.</param>
+    /// <returns>The convert from result.</returns>
     public static System.Drawing.Color? ConvertFrom(string t)
     {
         t = t.TrimStart('#');

@@ -1,7 +1,15 @@
 namespace SunamoColors;
 
+/// <summary>
+/// Represents the utils hex type.
+/// </summary>
 public class UtilsHex
 {
+    /// <summary>
+    /// To hex.
+    /// </summary>
+    /// <param name="bytes">The bytes.</param>
+    /// <returns>The to hex result.</returns>
     public static string ToHex(List<byte> bytes)
     {
         if (bytes == null || bytes.Count == 0) return "";
@@ -11,6 +19,11 @@ public class UtilsHex
         return stringBuilder.ToString();
     }
 
+    /// <summary>
+    /// From hex.
+    /// </summary>
+    /// <param name="hexEncoded">The hex encoded.</param>
+    /// <returns>The from hex result.</returns>
     public static List<byte> FromHex(string hexEncoded)
     {
         if (hexEncoded == null || hexEncoded.Length == 0) return new List<byte>();
