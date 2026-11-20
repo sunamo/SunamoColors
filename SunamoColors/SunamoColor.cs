@@ -21,8 +21,6 @@ public class SunamoColor
 
     public override string ToString()
     {
-        // System.Windows.Media.Color = #00000000
-        // System.Drawing.Color = Color [A=0, R=0, G=0, B=0]
         throw new Exception("StringHexColorConverter has been moved and is only available in WPF, not WinForms");
     }
 }
